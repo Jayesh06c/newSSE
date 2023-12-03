@@ -1,0 +1,32 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install python3
+sudo apt install python3-pip
+pip install django
+pip install django-storages
+sudo apt install default-libmysqlclient-dev
+sudo apt install mysql-client
+sudo apt update && sudo apt install pkg-config
+pip install mysqlclient
+
+sudo apt install git
+git clone https://github.com/Jayesh06c/newSSE.git
+sudo apt install unzip
+cd newSSE
+unzip Jayesh.zip
+cd Jayesh
+nano dcrm/settings.py
+Change ALLOWD_HOST = Public IP
+
+sudo apt install screen
+python3 manage.py runserver 0.0.0.0:8000
+
+-Conecting databse
+mysql --host database-1.cxn3hom0vuvq.us-east-1.rds.amazonaws.com -u admin -
+Jayesh06
+
+show databases;
+use Elctricity;
+show tables;
+Select * from website_record;
+
